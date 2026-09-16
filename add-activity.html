@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Activity | Enrico Ponciano</title>
+</head>
+<body>
+
+<header>
+    <h1>Add a New Activity</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Back to Main Profile</a></li>
+        </ul>
+    </nav>
+    <hr>
+</header>
+
+<main>
+    <section>
+        <h2>Log an Activity</h2>
+        <form action="#" method="POST">
+            <p>
+                <label for="activity-name">Activity Name:</label><br>
+                <input type="text" id="activity-name" name="activity_name" placeholder="e.g., Learn Python" required>
+            </p>
+
+            <p>
+                <label for="category">Category:</label><br>
+                <select id="category" name="category">
+                    <option value="web-dev">Web Development</option>
+                    <option value="language">Language</option>
+                    <option value="music">Music</option>
+                    <option value="other">Other</option>
+                </select>
+            </p>
+
+            <p>
+                <label>Status:</label><br>
+                <input type="radio" id="ongoing" name="status" value="ongoing" checked>
+                <label for="ongoing">Ongoing</label>
+
+                <input type="radio" id="on-hold" name="status" value="on-hold">
+                <label for="on-hold">On Hold</label>
+            </p>
+
+            <p>
+                <button type="submit">Submit Activity</button>
+                <button type="reset">Clear Form</button>
+            </p>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Enrico Terrence B. Ponciano | DLSU BSIT</p>
+</footer>
+
+</body>
+</html>

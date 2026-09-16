@@ -2,21 +2,90 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Enrico Ponciano | My Profile</title>
 </head>
 <body>
 
-    <header>
-        <h1>Enrico Terrence B. Ponciano</h1>
-        <p>BS Information Technology @ DLSU <i> - ID 124</i></p>
-        <a href="https://github.com/enricoponciano">My Github</a>
-        <hr>
-        <nav>
-            <ul>
-                <li><a href="">Things I'm Working On</a></li>
-            </ul>
-        </nav>
-    </header>
+<header>
+    <h1>Enrico Terrence B. Ponciano</h1>
+    <p>BS Information Technology @ DLSU <i> - ID 124</i></p>
+
+    <a href="https://github.com/enricoponciano" target="_blank">My GitHub Profile</a>
+
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="#activities">Things I'm Working On</a></li>
+            <li><a href="#media-section">Media Gallery</a></li>
+            <li><a href="add-activity.html">Add New Activity</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="activities">
+        <h2>Things I'm Doing</h2>
+        <table border="1">
+            <thead>
+            <tr>
+                <th>Activity / Topic</th>
+                <th>Category</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <td>HTML, CSS, and PHP</td>
+                <td>Web Development</td>
+                <td>Ongoing</td>
+            </tr>
+            <tr>
+                <td>Japanese Language</td>
+                <td>Skill / Education</td>
+                <td>On Hold</td>
+            </tr>
+            <tr>
+                <td>Drums</td>
+                <td>Hobby / Music</td>
+                <td>On Hold</td>
+            </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <hr>
+
+    <section id="media-section">
+        <h2>Media Showcase</h2>
+
+        <article>
+            <h3>Profile Picture</h3>
+            <img src="Assets/Photo.jpg" alt="Enrico Ponciano Profile Picture" width="250">
+        </article>
+
+        <article>
+            <h3>Listening to</h3>
+            <audio controls>
+                <source src="Assets/Audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+        </article>
+
+        <article>
+            <h3>Check this music out!</h3>
+            <video width="400" controls>
+                <source src="Assets/Video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </article>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p>&copy; 2026 Enrico Terrence B. Ponciano | DLSU BSIT</p>
+</footer>
 
 </body>
 </html>
